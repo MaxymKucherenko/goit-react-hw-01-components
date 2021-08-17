@@ -1,0 +1,32 @@
+/* @value color from './statistics.js'; */
+
+.statistics {
+    width: 400px;
+    background-color: gray;
+    margin: auto;
+    padding: 20px;
+}
+.title {
+    background-color: white;
+    padding: 20px;
+
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+.item {
+    color: white;
+    list-style: none;
+    border: 2px solid #b0bec5;
+    padding: 10px;
+    margin: 0;
+    background-color: red;
+}
+
+.label {
+    display: block;
+}

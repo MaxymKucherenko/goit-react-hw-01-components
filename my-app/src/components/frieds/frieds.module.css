@@ -1,0 +1,39 @@
+.list {
+    
+    list-style: none;
+    margin-left: 20px;
+}
+
+.item {
+    display: flex;
+    width: 150px;
+    border: 2px solid grey;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.status {
+    
+    border-radius: 50%;
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: auto 0;
+}
+
+.status.online {
+        background-color: rgb(12, 214, 12);
+    }
+
+.status.offline {
+        background-color: rgb(230, 27, 27);
+    }
+
+.avatar {
+    width: 75px;
+}
+
+.name {
+    margin: auto 0;
+    color: blue;
+}

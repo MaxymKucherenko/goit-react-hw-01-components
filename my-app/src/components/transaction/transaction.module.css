@@ -1,0 +1,19 @@
+.transaction {
+    border: 2px solid black;
+    width: 300px;
+    margin: auto;
+}
+    
+.table {
+    margin: auto;
+}
+
+.th {
+        border: 1px solid black;
+        padding: 5px;
+    }
+
+.td {
+        border: 1px solid black;
+        padding: 5px;
+    }
